@@ -1,0 +1,9 @@
+AppBuilder that you build to start the engine
+
+State trait that gets a `fn tick(&mut self, ctx: &mut AppContext, delta: Duration)`
+
+AppContext
+- Registries of various asset types
+- Hooks into window stuff
+- Input should be handled in a sane way allowing both keyboard and mouse
+- Trait-driven basically everything
